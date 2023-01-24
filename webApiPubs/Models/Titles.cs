@@ -11,7 +11,7 @@ namespace webApiPubs.Models
     {
         public Titles()
         {
-            Sales = new HashSet<Sales>();
+            Sales = new HashSet<Sale>();
             Titleauthor = new HashSet<Titleauthor>();
         }
 
@@ -27,7 +27,7 @@ namespace webApiPubs.Models
         public DateTime Pubdate { get; set; }
 
         public virtual Publisher Pub { get; set; }
-        public virtual ICollection<Sales> Sales { get; set; }
+        public virtual ICollection<Sale> Sales { get; set; }
         public virtual ICollection<Titleauthor> Titleauthor { get; set; }
     }
 }

@@ -3,7 +3,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/publisher",
+      "launchUrl": "api/store",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
